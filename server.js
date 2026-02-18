@@ -8,7 +8,7 @@ const server = express();
 server.use(express.json());
 
 //connect to mongoDb
-const dbURI ='mongodb+srv://lazypa4codes_db_user:Param_8423@nodeapp.dsgroh1.mongodb.net/';
+const dbURI ='mongodb+srv://<username>:<pwd>@nodeapp.dsgroh1.mongodb.net/';
 mongoose.connect(dbURI)
 .then((result) => 
 // listen for requests only when connected to our database
