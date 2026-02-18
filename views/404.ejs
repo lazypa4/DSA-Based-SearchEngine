@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Problem Not Found</title>
+    <style>
+        /* General Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #fff;
+            color: #202124;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Logo Styling matching your preference */
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            user-select: none;
+            text-decoration: none;
+        }
+
+        .logo span:nth-child(1) { color: #4285f4; }
+        .logo span:nth-child(2) { color: #ea4335; }
+        .logo span:nth-child(3) { color: #fbbc05; }
+        .logo span:nth-child(4) { color: #4285f4; }
+        .logo span:nth-child(5) { color: #34a853; }
+        .logo .engine { color: #000000; }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 300;
+            color: #70757a;
+            margin: 10px 0;
+        }
+
+        .message {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #3c4043;
+        }
+
+        .message b {
+            color: #000;
+        }
+
+        /* Back to Search Button */
+        .back-btn {
+            padding: 10px 24px;
+            background-color: #f8f9fa;
+            border: 1px solid #dfe1e5;
+            border-radius: 4px;
+            color: #3c4043;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            border-color: #dadce0;
+            background-color: #f1f3f4;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            color: #202124;
+        }
+
+        .illustration {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="/" class="logo">
+        <span>P</span><span>a</span><span>r</span><span>a</span><span>m</span><span class="engine">Engine</span>
+    </a>
+
+    <div class="error-code">404</div>
+
+    <div class="message">
+        <p><b>That’s an error.</b></p>
+        <p>The requested search criteria did not match any problems in our database.</p>
+    </div>
+
+    <a href="/" class="back-btn">Back to Search</a>
+
+</body>
+</html>
